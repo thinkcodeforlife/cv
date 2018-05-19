@@ -40,7 +40,7 @@ body {
     float: left;
 
     width: 225px;
-    height: 865px;
+    height: 862px;
 
     /*min-width: 300px;*/
     /*max-width: 400px;*/
@@ -60,7 +60,7 @@ body {
     /*border: 3px dashed orange;*/
 
     width: 450px;
-    height: 870px;
+    height: 867px;
 
     /*min-width: 300px;
     max-width: 1000px;
@@ -319,6 +319,10 @@ hr{
     margin-bottom: 0px;
 
     max-height: 25px;
+
+    /*float: left;*/
+    /*display: inline;*/
+
     /*border: solid 1px dodgerblue;*/
 }
 
@@ -351,7 +355,10 @@ hr {
 }
 
 .gitlink {
-    float:right;
+    margin-top: 10px;
+    float: right;
+    display: inline-block;
+
     font-size: 11px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
