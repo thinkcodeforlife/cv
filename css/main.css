@@ -7,6 +7,19 @@ body {
     font-size: 12px;
 }
 
+/*.bottompanel {
+
+    background: rgb(40,80,120);
+    position: absolute;
+
+    bottom: -100px;
+
+    width: 690px;
+    height: 10px;
+
+    margin-top: -5px;
+}*/
+
 .toppanel{
 
     color: rgb(255, 255, 255);
@@ -16,7 +29,7 @@ body {
     /*vertical-align: middle;*/
 
     width: 680px;
-    height: 92px;
+    height: 90px;
 
     /*min-width: 300px;
     max-width: 1400px;
@@ -40,17 +53,18 @@ body {
     float: left;
 
     width: 225px;
-    height: 862px;
+    /*height: 865px;*/
 
     /*min-width: 300px;*/
     /*max-width: 400px;*/
 
-    /*min-height: 600px;*/
-    /*max-height: 1200px;*/
+    min-height: 834px;
+    max-height: 865px;
 
     padding: 5px;
     /*margin: 5px;*/
 
+    overflow: hidden;
     /*z-index: -1;*/
 }
 
@@ -60,19 +74,22 @@ body {
     /*border: 3px dashed orange;*/
 
     width: 450px;
-    height: 867px;
+    /*height: 870px;*/
 
     /*min-width: 300px;
-    max-width: 1000px;
+    max-width: 1000px;*/
 
-    min-height: 600px;
-    max-height: 1200px;*/
+    min-height: 838px;
+    max-height: 870px;
 
     /*margin: 5px;*/
     padding: 3px;
+    padding-bottom: -10px;
 
     display: inline-block;
     /*z-index: 0;*/
+
+    overflow: hidden;
 }
 
 .contents {
@@ -146,7 +163,7 @@ hr{
 }
 
 .mainleftcontainer {
-    margin-top: 52px;
+    margin-top: 60px;
     /*text-align: center;*/
 }
 
@@ -305,6 +322,12 @@ hr{
     /*font-family: 'arial narrow';*/
 }
 
+
+.links2 {
+    text-decoration: unset;
+    color: white;
+}
+
 .biggericons {
     font-size: 18px;
 }
@@ -350,15 +373,83 @@ hr {
     display: inline-block;
 }
 
+.certpics {
+    display: inline-block;
+    margin-right: 15px;
+}
+
 .imgcert {
     max-height: 30px;
 }
 
-.gitlink {
-    margin-top: 10px;
-    float: right;
-    display: inline-block;
+.othcerdiv {
+    /*margin-top: 5px;*/
+    margin: 10px 0px 5px 0px;
+}
 
-    font-size: 11px;
+.othcer {
+    /*margin: 5px 0px 5px 0px;*/
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.gitlink {
+
+    /*margin-top: 10px;*/
+    display: inline-block;
+    float: right;
+
+    text-align: right;
+    position: relative;
+
+    font-size: 8px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    min-height: 62px;
+    max-height: 95px;
+
+    /*height: 90px;*/
+
+    width: 58%;
+
+    background: url(../img/svg/wave.svg) no-repeat right;
+    background-size: cover;
+
+    margin-right: -13px;
+    margin-top: 30px;
+
+    margin-bottom: -10px;
+
+    /*border: 3px solid darkblue;*/
+}
+
+.innerlink {
+
+    /*background: url(../img/svg/wave3.svg) no-repeat right;
+    background-size: cover;*/
+
+    /*height: 25px;*/
+
+    color: white;
+
+    position: absolute;
+    
+    bottom: 2px;
+    right: 4px;
+
+}
+
+.margintops {
+    margin-top: 30px;
+}
+
+.languages {
+    float: left;
+    width: 38%;
+    margin-top: 15px;
+    /*border: 3px solid darkred;*/
+}
+
+.pagetop {
+    margin-top: -5px;
 }
