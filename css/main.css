@@ -7,18 +7,16 @@ body {
     font-size: 12px;
 }
 
-/*.bottompanel {
+.bottompanel {
 
     background: rgb(40,80,120);
-    position: absolute;
 
-    bottom: -100px;
+    width: 865px;
+    height: 20px;
 
-    width: 690px;
-    height: 10px;
+    margin-top: -15px;
 
-    margin-top: -5px;
-}*/
+}
 
 .toppanel{
 
@@ -26,68 +24,45 @@ body {
     background: rgb(40,80,120);
 
     text-align: center;
-    /*vertical-align: middle;*/
 
-    width: 680px;
+    width: 855px;
     height: 90px;
 
-    /*min-width: 300px;
-    max-width: 1400px;
-
-    min-height: 120px;
-    max-height: 500px;*/
-
-    padding: 10px 5px 5px 5px;
-    /*margin: 5px;*/
-    
-    /*border: 3px dashed orange;*/
-    /*z-index: 2;*/
+    padding: 10px 5px 20px 5px;
 
 }
 
 .leftpanel{
 
     background: rgb(200, 200, 200);
-    /*border: 3px dashed orange;*/
+    
+    padding: 5px;
+    width: 255px;
+
+    /*min-height: 834px;*/
+    /*max-height: 1200px;*/
+
+    height: 1156px;
     
     float: left;
-
-    width: 225px;
-    /*height: 865px;*/
-
-    /*min-width: 300px;*/
-    /*max-width: 400px;*/
-
-    min-height: 834px;
-    max-height: 865px;
-
-    padding: 5px;
-    /*margin: 5px;*/
-
     overflow: hidden;
-    /*z-index: -1;*/
 }
 
 .rightpanel{
 
     background: rgb(230, 230, 230);
-    /*border: 3px dashed orange;*/
 
-    width: 450px;
-    /*height: 870px;*/
+    width: 595px;
 
-    /*min-width: 300px;
-    max-width: 1000px;*/
+    /*min-height: 600px;*/
+    /*max-height: 1200px;*/
 
-    min-height: 838px;
-    max-height: 870px;
+    height: 1160px;
 
-    /*margin: 5px;*/
     padding: 3px;
     padding-bottom: -10px;
 
     display: inline-block;
-    /*z-index: 0;*/
 
     overflow: hidden;
 }
@@ -102,12 +77,6 @@ body {
     color: rgb(0, 0, 0);
 }
 
-hr{
-
-    /*margin: 15px;*/
-    
-}
-
 .headers {
     color: rgb(0, 0, 0);
 }
@@ -117,30 +86,13 @@ hr{
 }
 
 .container {
-    /*text-align: center;*/
     color: rgb(0,0,0);
     margin: 10px;
 }
 
 .imgs {
-
     max-width: 200px;
-    /*max-height: 300px;*/
-
-    /*clip: rect(20px, 200px, 50px, 0px);*/
-
-    /*border-radius: 50%;*/
-    /*border: solid 2px white;*/
-
-
-    /*-webkit-transform-origin: left bottom;*/
-    /*-webkit-transform: rotate(-90deg);*/
-
-    /*-moz-transform-origin: left bottom;*/
-    /*-moz-transform: rotate(-90deg);*/
-
     margin: -10px 0px 0px -34px;
-    /*float:left;*/
 }
 
 .imgcontainer {
@@ -154,17 +106,12 @@ hr{
     left: 70px;
     top: 55px;
 
-    /*clip: rect(0px, 200px, 200px, 0px);*/
     border-radius: 50% 50% 50% 50%;
-
-    /*border: solid 2px orange;*/
-    /*text-align: center;*/
 
 }
 
 .mainleftcontainer {
     margin-top: 60px;
-    /*text-align: center;*/
 }
 
 .symbols {
@@ -173,48 +120,24 @@ hr{
     float: left;
 
     padding: 0px 5px 0px 5px;
-    /*margin: 10px;*/
 
-    /*border: dotted 2px darkorange;*/
-
-}
-
-.liner {
-    /*vertical-align: bottom;*/
-    /*border: dotted 2px red;*/
 }
 
 .ps {
-
     vertical-align: top;
-    /*display: inline-block;*/
-
     font-family: 'arial narrow';
-    /*font-size: 12px;*/
-    /*border: dotted 2px blue;*/
 }
 
 .aboutme {
     padding: 0px 5px opx 5px;
 }
 
-.experiences {
-    /*background: indianred;*/
-}
-
 .exprienceheader {
-
-    /*color: yellow;*/
-
     font-family: Georgia, 'Times New Roman', Times, serif;
-
-    font-weight: bold;    
-
+    font-weight: bold;
 }
 
 .expriencealt {
-
-    /*color: darkslategrey;*/
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
@@ -226,7 +149,6 @@ hr{
 
 .referenceheader {
     font-weight: bold;
-    /*font-size: 14px;*/
     display: inline-block;
 }
 
@@ -241,14 +163,9 @@ hr{
     float: right;
 }
 
-.progr {
-    
-}
-
 .pro1 {
     display: block;
     float: left;
-    width: 45%;
     margin: 3px 15px 3px 3px;
 }
 
@@ -256,18 +173,15 @@ hr{
     display: inline-block;
     width: 45%;
     margin: 3px 5px 3px 12px;
-    /*float: right;*/
 }
 
 @media print {
     .collage_bg {
-        /*background-color: #E6E7E9 !important;*/
-        -webkit-print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;        
     }
 }
 
 .mainheader {
-    /*border: solid 1px red;*/
     width: 50%;
     margin-left: 200px;
 }
@@ -281,14 +195,12 @@ hr{
 }
 
 .header {
-    font-family: Courier New, Courier, monospace;
+    font-family: Verdana, sans-serif;
     margin-top: 5px;
 }
 
 .righthead {
     float: right;
-    /*position: absolute;*/
-    /*border: solid 1px red;*/
     display: block;
     width: 10px;
     margin-right: 10px;
@@ -319,7 +231,6 @@ hr{
     color: black;
     text-decoration: unset;
     cursor: pointer;
-    /*font-family: 'arial narrow';*/
 }
 
 
@@ -334,34 +245,15 @@ hr{
 
 .flagdiv {
     max-width: 30px;
-    /*border: solid 1px orange;*/
 }
 
 .flagz {
+
     margin-top: 5px;
     margin-bottom: 0px;
 
     max-height: 25px;
 
-    /*float: left;*/
-    /*display: inline;*/
-
-    /*border: solid 1px dodgerblue;*/
-}
-
-hr {
-    /*border: none;*/
-    /*height: 1px;*/
-    /* Set the hr color */
-    /*color: orange;*/
-    /* old IE */
-    /*background-color: #333;*/
-    /* Modern Browsers */
-    /*border-bottom: 0px;*/
-}
-
-.softwares {
-    /*line-height: 0.7;*/
 }
 
 .underlines {
@@ -369,7 +261,6 @@ hr {
 }
 
 .certimg {
-    /*max-width: 20px;*/
     display: inline-block;
 }
 
@@ -383,71 +274,55 @@ hr {
 }
 
 .othcerdiv {
-    /*margin-top: 5px;*/
     margin: 10px 0px 5px 0px;
 }
 
 .othcer {
-    /*margin: 5px 0px 5px 0px;*/
     text-decoration: underline;
     font-style: italic;
 }
 
 .gitlink {
 
-    /*margin-top: 10px;*/
-    display: inline-block;
     float: right;
 
     text-align: right;
     position: relative;
 
-    font-size: 8px;
+    font-size: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-    min-height: 62px;
-    max-height: 95px;
+    min-height: 32px;
+    width: 28%;
 
-    /*height: 90px;*/
-
-    width: 58%;
-
-    background: url(../img/svg/wave.svg) no-repeat right;
+    background: url(../img/svg/url.svg) no-repeat right;
     background-size: cover;
 
-    margin-right: -13px;
-    margin-top: 30px;
+    margin-right: -12px;
+    margin-top: -12px;
 
-    margin-bottom: -10px;
-
-    /*border: 3px solid darkblue;*/
+    z-index: 100;
 }
 
 .innerlink {
-
-    /*background: url(../img/svg/wave3.svg) no-repeat right;
-    background-size: cover;*/
-
-    /*height: 25px;*/
 
     color: white;
 
     position: absolute;
     
-    bottom: 2px;
-    right: 4px;
+    bottom: 4px;
+    right: 8px;
 
 }
 
 .margintops {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .languages {
     float: left;
     width: 38%;
     margin-top: 15px;
-    /*border: 3px solid darkred;*/
 }
 
 .pagetop {
