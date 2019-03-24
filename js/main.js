@@ -24,8 +24,8 @@ $('document').ready(function(){
         });
 
         $my_top_panel.css({
-            "width": "100%",
-            "padding-left": "80px"
+            "width": "72%",
+            "padding-left": "30%"
         });
 
         $my_right_panel.css({
@@ -63,7 +63,7 @@ $('document').ready(function(){
 
         $my_top_panel.css({ 
             "width": "855px",
-            "padding-left": "0px"
+            "padding-left": "5px"
         });
 
         $my_right_panel.css({
