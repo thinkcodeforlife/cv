@@ -17,20 +17,22 @@ $('document').ready(function(){
       if (window.innerWidth < 904) {
 
         $my_left_panel.css({
-            "width": "100%",
+            "width": "96%",
             "overflow": "auto",
             "float": "none",
-            "height": "980px"
+            "height": "980px",
+            "padding": "2%"
         });
 
         $my_top_panel.css({
-            "width": "72%",
+            "width": "68%",
             "padding-left": "30%"
         });
 
         $my_right_panel.css({
             "width": "100%",
-            "height": "1400px"
+            "height": "1600px",
+            "padding": "0px"            
         });
 
         $my_bottom_panel.css({
@@ -58,7 +60,8 @@ $('document').ready(function(){
             "width": "255px",
             "overflow": "hidden",
             "float": "left",
-            "height": "1156px"
+            "height": "1156px",
+            "padding": "5px"
         });
 
         $my_top_panel.css({ 
@@ -68,7 +71,9 @@ $('document').ready(function(){
 
         $my_right_panel.css({
             "width": "595px",
-            "height": "1160px"
+            "height": "1160px",
+            "padding": "3px",
+            "padding-bottom": "-10px"
         });
 
         $my_bottom_panel.css({
