@@ -173,7 +173,7 @@ body {
     }
 }
 
-@media screen, print and (min-width: 904px) {
+@media screen and (min-width: 904px) {
     .mainheader {
         width: 50%;
         margin-left: 200px;
@@ -200,7 +200,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 904px) {
+@media screen and (max-width: 904px) {
     .mainheader {
         width: 70%;
     }
