@@ -11,7 +11,7 @@ body {
 
     background: rgb(40,80,120);
 
-    width: 865px;
+    width: 860px;
     height: 20px;
 
     margin-top: -15px;
@@ -25,7 +25,7 @@ body {
 
     text-align: center;
 
-    width: 855px;
+    /*width: 860px;*/
     height: 90px;
 
     padding: 10px 5px 20px 5px;
@@ -36,8 +36,8 @@ body {
 
     background: rgb(200, 200, 200);
     
-    padding: 5px;
-    width: 255px;
+    /*padding: 5px;*/
+    /*width: 255px;*/
 
     height: 1156px;
     
@@ -50,12 +50,12 @@ body {
     background: rgb(230, 230, 230);
 
     width: 595px;
-    height: 1160px;
+    /*height: 1160px;*/
 
     padding: 3px;
     padding-bottom: -10px;
 
-    display: inline-block;
+    /*display: inline-block;*/
     overflow: hidden;
 }
 
@@ -79,13 +79,18 @@ body {
 
 .container {
     color: rgb(0,0,0);
+}
+
+.wrapperContainer {
     margin: 10px;
 }
 
+/*
 .imgs {
     max-width: 200px;
     margin: -10px 0px 0px -34px;
 }
+
 
 .imgcontainer {
 
@@ -101,6 +106,7 @@ body {
     border-radius: 50% 50% 50% 50%;
 
 }
+*/
 
 .mainleftcontainer {
     margin-top: 60px;
@@ -171,6 +177,34 @@ body {
     .collage_bg {
         -webkit-print-color-adjust: exact;        
     }
+    .mainheader {
+        width: 50%;
+        margin-left: 200px;
+    }
+
+    .bigheader {
+        font-size: 28px;
+    }
+
+    .smallheader {
+        font-size: 16px;
+    }
+
+    .small {
+        font-size: 40px;
+    }
+
+    .ucases {
+        font-size: 55px;
+    }
+
+    .mainleftcontainer {
+        margin-top: 60px;
+    }
+    .toppanel {
+        width: 862px;
+        /*padding: 10px 5px 20px 5px;*/
+    }
 }
 
 @media screen and (min-width: 904px) {
@@ -198,6 +232,31 @@ body {
     .mainleftcontainer {
         margin-top: 60px;
     }
+    .imgs {
+        max-width: 200px;
+        margin: -10px 0px 0px -34px;
+    }
+    .imgcontainer {
+        position: absolute;
+        overflow: hidden;
+        max-width: 120px;
+        max-height: 120px;
+        left: 70px;
+        top: 55px;
+        border-radius: 50% 50% 50% 50%;
+    }
+    .toppanel {
+        width: 860px;
+        /*padding: 10px 5px 30px 5px;*/
+    }
+    .leftpanel {
+        width: 255px;
+        padding: 5px;
+    }
+    .rightpanel {
+        height: 1160px;
+        display: inline-block;
+    }
 }
 
 @media screen and (max-width: 904px) {
@@ -221,6 +280,30 @@ body {
 
     .mainleftcontainer {
         margin-top: 0px;
+    }
+    .imgs {
+        max-width: 200px;
+        margin: -10px 0px 0px -34px;
+    }
+    .imgcontainer {
+        position: absolute;
+        overflow: hidden;
+        max-width: 80px;
+        max-height: 80px;
+        /*left: 70px;*/
+        /*top: 55px;*/
+        margin: -10px 0px 0px 10px;
+        border-radius: 50% 50% 50% 50%;
+        /*padding-bottom: 10px;*/
+    }
+    .toppanel {
+        width: 100%;
+    }
+    .leftpanel {
+        width: 100%;
+    }
+    .rightpanel {
+        height: 1200px;
     }
 }
 
@@ -348,4 +431,8 @@ body {
 
 .pagetop {
     margin-top: -5px;
+}
+
+.redborder {
+    border: red solid 1px;
 }
